@@ -1,0 +1,19 @@
+.products {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product {
+    background-color: hotpink;
+    border: 2px dotted fuchsia;
+    color: black;
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+.product__header {
+    font-size: larger;
+    font-weight: 700;
+    line-height: 3rem;
+}
